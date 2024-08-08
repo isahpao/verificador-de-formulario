@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    background-image: url('../images/fundo.png');
+    background-repeat: repeat;
+    color: white;
+    height: 100vh;
+   font-family: 'Roboto', sans-serif;
+   display: flex;
+    flex-direction: column;
+
+}
+
+.textos{
+   
+    margin: auto;
+    position: absolute;
+    left: 305px;
+    top: 225px;
+    width: 300px;
+    height: 111px;
+    text-align: start;
+    
+}
+.quadro-branco{
+    background-color: white;
+    width: 340px;
+    height: 405px;
+    position: absolute;
+    left: 670px;
+    top: 70px;
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+input{
+    padding: 10px;
+    margin: 10px 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 400;
+    width: 300px;
+}
+
+p{
+    margin: 12px 10px 10px 5px;
+    text-align: start;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+h1{
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 23.44px;
+}
+
+h2{
+    padding-top: 15px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 17.58px;
+}
+.enviar{
+    background-color: #00C22B;
+    border: #00C22B;
+    color: white;
+    margin: 0 5px 10px 5px;
+    
+} 
+
+textarea{
+    
+    height: 100px;
+    width: 300px;
+    margin: 10px 5px 0 5px;
+    resize: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    padding: 5px;
+    font-weight: 400;
+    border: 2px solid black;
+    border-radius: 5px;
+
+
+     
+}
+
+.mensagem::placeholder{
+
+    position: absolute;
+    top: 10px;
+}
+
+p.obrigatorio{ 
+    font-size: 10px;
+    margin: 0;
+    color: red;
+    left: 20px;
+    display: none;
+    
+}
+
+p.obrigatorio.display{
+    display: block;
+}
+
+p.obrigatorio.nome{
+    top: 63px;
+    position: absolute;
+}
+
+p.obrigatorio.email{
+    position: absolute;
+    top: 125px;
+}
+
+p.obrigatorio.celular{
+    position: absolute;
+    top: 185.5px;
+}
+
+p.obrigatorio.mensagem{
+    position: absolute;
+    top:305.5px;
+}
+
+.erro {
+    border: 2px solid red;
+
+    /* colocar em todos os inputs e no textarea */
+    /* alterar o display do p obrigatorio qnd tiver faltando coisa */
+}
+.certo{
+    border: 2px solid #00C22B;
+
+    /* campo preenchido, borda verde */
+}
+

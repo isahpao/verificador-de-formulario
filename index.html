@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+        </style>
+    <title>Quest Js Intermediário - Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="textos">
+        <h1>FICOU COM DÚVIDA? 
+            NOS MANDE UMA MENSAGEM!</h1>
+        <h2>Caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de 24h.</h2></div>
+        <div class="quadro-branco">
+            <form id="formulario" method="post">
+            <input type="text" id="input-nome" name="nome" placeholder="Nome completo *" required>
+            <p class="obrigatorio nome" id="obrigatorioNome">campo obrigatorio*</p>
+
+            <input type="email" id="input-email" name="email" placeholder="Email *" required>
+            <p class="obrigatorio email " id="obrigatorioEmail">campo obrigatorio*</p>
+
+            <input type="tel" id="input-celular" name="celular" placeholder="Telefone *" required>
+            <p class="obrigatorio celular " id="obrigatorioCelular">campo obrigatorio*</p>
+
+            <textarea id="input-mensagem" placeholder="Mensagem *" maxlength="200" required></textarea>
+            <p class="obrigatorio mensagem" id="obrigatorioMensagem">campo obrigatorio*</p>
+            
+            <p>*campos obrigatórios</p>
+            
+            <input class="enviar" type="submit" value="Enviar" id="enviar"></form>
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
