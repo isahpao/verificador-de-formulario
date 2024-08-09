@@ -4,8 +4,8 @@
     box-sizing: border-box;
    
 }
-body{
-    background-image: url('https://github.com/isahpao/verificador-de-formulario/blob/main/images/fundo.png');
+body {
+    background-image: url('https://raw.githubusercontent.com/isahpao/verificador-de-formulario/main/images/fundo.png');
     background-repeat: repeat;
     color: white;
     height: 100vh;
